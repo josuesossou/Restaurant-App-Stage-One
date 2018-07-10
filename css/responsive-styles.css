@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 1000px) {
+    #restaurants-list {
+        width: 1000px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 830px) {
+    #restaurants-list li {
+        width: calc(50% - 30px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #restaurants-list li {
+        width: calc(100% - 30px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .filter-options {
+        flex-direction: column;
+        height: auto;
+        padding-top: 10px
+    }
+}
+@media only screen and (max-width: 300px) {
+    body,
+    html,
+    #restaurants-list {
+        width: 300px
+    }
+}
