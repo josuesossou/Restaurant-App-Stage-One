@@ -6,7 +6,7 @@
     }
     .inside #map-container {
         width: 50%;
-        height: 90vh;
+        height: 120vh;
         order: 1;
     }
     #reviews-container {
